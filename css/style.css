@@ -1,0 +1,213 @@
+.container {
+    max-width: 570px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+h1 {
+    color: #1C1C1C;
+    font-size: 24px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 32px;
+}
+
+.firstname,
+.lastname,
+.email {
+    color: #545454;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+input[type="text"] {
+    width: 245px;
+    height: 38px;
+}
+
+input[type="email"] {
+    width: 500px;
+}
+
+.form-text {
+    display: block;
+    color: #969696;
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.form-row {
+    display: flex;
+    margin-bottom: 15px;
+    gap: 12px;
+}
+
+.form-group:last-child {
+    margin-right: 0;
+}
+
+.male,
+.female {
+    margin: 0;
+}
+
+.male-lab,
+.female-lab {
+    margin-bottom: 0;
+    position: relative;
+    margin-top: 21px;
+}
+
+input[type="radio"] {
+  appearance: none;
+  background: #fff;
+  height: 1.5em;
+  width: 1.5em;
+  border-radius: 100%;
+  vertical-align: text-bottom;
+  position: relative;
+}
+
+input[type="radio"]::before {
+  content: "";
+  position: absolute;
+  margin: auto;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  overflow: hidden;
+  top: 0;
+}
+
+input[type="radio"]:checked::before {
+    border: #007BFE solid 7px;
+    border-radius: 100%;
+}
+
+.gender-text {
+    color: #545454;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.locations {
+    color: #545454;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.locations-select {
+    color: #545454;
+    font-size: 15px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input, select {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    width: 500px;
+    padding: 10px;
+    background: #007BFF;
+    font-size: 15px; 
+    font-family: Roboto; 
+    font-weight: 500; 
+    line-height: 22px;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+select {
+    width: 245px;
+    height: 38px;
+    padding-right: 30px;
+    background-image: url('../images/icon.svg');
+    background-repeat: no-repeat;
+    background-position: right center;
+    background-size: 20px 20px; 
+    appearance: none;
+}
+
+.terms {
+    display: block;
+    color: #969696;
+    font-size: 13px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: center;
+    margin: 22px 0 20px;
+}
+
+.terms a {
+    color: #007BFF;
+    font-size: 13px;
+    font-family: Inter;
+    font-weight: 400;
+    line-height: 18px;
+    text-decoration: none;
+}
+
+.line {
+    width: 500px;
+    height: 1px;
+    background: #E4E4E4;
+    border: none;
+}
+
+ul.login {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    padding: 0;
+}
+
+
+ul.login li:first-child {
+    color: #545454;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 400;
+    line-height: 22px;
+    margin-right: 20px;
+}
+
+ul.login li a {
+    color: #007BFF;
+    font-size: 15px;
+    font-family: Roboto;
+    font-weight: 500;
+    line-height: 22px;
+    text-decoration: none;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+select:focus,
+textarea:focus {
+    outline: none; /* убирает стандартную подсветку */
+    border-color: #007BFF; /* цвет рамки */
+    box-shadow: 0 0 5px rgba(0, 0, 255, 0.5); /* синий эффект тени */
+    background-color: #f0f8ff; /* светлый синий фон */
+}
